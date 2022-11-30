@@ -17,15 +17,18 @@ body {
 .bg {
   background: url('./IMG_6250.jpeg') no-repeat center center/cover;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -40;
+  left: -40;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh + 40px);
   z-index: -1;
   filter: blur(0px);
 }
 
 .loading-text {
   font-size: 50px;
-  color: lawngreen;
+  font-weight: 900;
+  color: #009dff;
+  padding-right: 80vw;
+  padding-top: 40vw;
 }
