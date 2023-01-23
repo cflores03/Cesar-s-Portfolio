@@ -100,8 +100,9 @@ body {
 }
 
 .fa {
-  font-size: 48px;
   position: absolute;
   top: 20px;
   right: 5px;
+  font-size: 48px;
+  cursor: pointer;
 }
